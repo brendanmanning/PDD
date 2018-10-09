@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input id="input" type="text" placeholder="y-x"><button onclick="showMap()">Show Map</button>
+<iframe id="iframe" height="500" width="500" src="https://google.com."></iframe>
+</body>
+<script>
+
+    function showMap() {
+        document.getElementById("iframe").src = "file://document.getElementById("input").value
+    }
+
+</script>
+</html>
